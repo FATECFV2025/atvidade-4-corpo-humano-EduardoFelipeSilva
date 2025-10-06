@@ -1,0 +1,14 @@
+- Na classe Corpo_Humano inclua a linha c1.massa = "2"; logo depois de instanciar o objeto c1. Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+
+- R: Erro, devido a massa ser privado entao so pode ser alterado pelos set ou no construtor.
+
+- Na classe Corpo_Humano altere a linha private float Massa para public float Massa; Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+
+- R: Apos fazer esta alteração e se ficar a alteração anterior c1.massa = "2", a massa do objeto c1 passa a ser 2 devido ao atributo massa estar
+publico.
+
+
+- Na classe Corpo_Humano altere a linha public setVolume (float volume) para private setVolume (float volume).Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+
+- R: Não mudou nada porque não ta colocando informações via set e sim pelo construtor e caso tente usar o metodo set ele não vai 
+encontrar o metodo porque esta private.
