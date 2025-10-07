@@ -14,7 +14,9 @@
 ## Como Utilizar Esse Projeto 📁
 
 - Nesse projeto há  pasta:
-    - src:Onde se encontra os codigo fonte. 
+    - Arquivo txt com as respostas. 
+    - src/main: Onde se encontra os codigo fonte. 
+    - src/teste: Codigo fonte do teste dos arquivos em src/main. 
 
 - Na sua máquina tem que ter instalado o <a href="https://www.oracle.com/br/java/technologies/downloads/" target="_blank">Java Development Kit (JDK) </a> 
 - Caso utilize o VisualStudio Code é necessário que instale a <a href="https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack" target="_blank">Extension Pack for Java</a>
@@ -35,6 +37,7 @@
 - Na classe Corpo_Humano inclua a linha c1.massa = "2"; logo depois de instanciar o objeto c1. Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
 
 - R: Erro, devido a massa ser privado entao so pode ser alterado pelos set ou no construtor.
+
 
 - Na classe Corpo_Humano altere a linha private float Massa para public float Massa; Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
 
